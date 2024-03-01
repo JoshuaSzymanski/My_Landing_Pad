@@ -1,0 +1,128 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0d06dd;
+  --secondary-color: #2c9ff0;
+  --line-height: 1.7rem;
+  --transition: 0.4s ease-in;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: var(--transition);
+}
+
+ body {
+  font-family: "Roboto", sans-serf;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.Joshua_Szymanski {
+    color: var(--primary-color);
+}
+  
+.Landing_Page {
+    color: var(--primary-color);
+}
+
+nav {
+    background: #0a0a0a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 3px 2px #918f8f;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+.Worker {
+    display: none;
+}
+
+.about_me {
+    font-size: 1rem;
+    font-weight: 450;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.9rem;
+    max-width: 1850px;
+    margin: 4rem auto 2.5rem;
+}
+  
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.nav-item {
+    margin-left: 2rem;
+}
+  
+.nav-link {
+    font-weight: var(--bold-font);
+}
+.Resume {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: -10rem;
+    max-width: 1100px;
+    margin: 2rem auto -10rem;
+}
+
+.Banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30rem;
+    max-width: 1600px;
+    margin: 6rem auto 6rem;
+    flex-direction: column;
+}
+
+footer {
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+}
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+  
+.up-arrow {
+    width: 1rem;
+    height: 1rem;
+}
